@@ -1,0 +1,248 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"a3_map_altis",
+		"A3_Boat_F_Civilian_Boat"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Boat_F_Civilian_Boat",
+		"a3_map_altis"
+	};
+	randomSeed=14419978;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4567.8984,257.84137,15452.429};
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=3;
+		class Item0
+		{
+			position[]={21745.758,-0.033755433,20838.238};
+			azimut=-162.48119;
+			id=1;
+			side="EMPTY";
+			vehicle="C_Boat_Civil_01_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={21755.426,-0.028734488,20833.688};
+			azimut=-162.48119;
+			id=2;
+			side="EMPTY";
+			vehicle="C_Boat_Civil_01_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={21769.643,-0.0077552968,20831.982};
+			azimut=-162.48119;
+			id=3;
+			side="EMPTY";
+			vehicle="C_Boat_Civil_01_F";
+			skill=0.60000002;
+		};
+	};
+	class Markers
+	{
+		items=8;
+		class Item0
+		{
+			position[]={25265.154,84.742111,21815.682};
+			name="Objectif 1 ";
+			text="Radar 1";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item1
+		{
+			position[]={21962.418,38.833733,21030.445};
+			name="Objectif 2";
+			text="Récuperer les infos auprès du VIP";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item2
+		{
+			position[]={16080.544,14.342063,16979.383};
+			name="Objectif 3";
+			text="Détruire le centre de développement nucléaire";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item3
+		{
+			position[]={14316.572,22.909937,16188.038};
+			name="Objectif 4";
+			text="Détruire le radar";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item4
+		{
+			position[]={4545.2529,263.23917,15417.579};
+			name="Objectif 5";
+			text="Détruire les tours radios";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item5
+		{
+			position[]={11572.799,22.263865,11685.471};
+			name="Zone d'exfiltration";
+			text="Zone d'exfiltration";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item6
+		{
+			position[]={26883.328,23.858406,24614.551};
+			name="Point d'insertion";
+			text="Point d'insertion";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item7
+		{
+			position[]={27059.957,22.165148,23271.566};
+			name="Objectif Annexe";
+			text="récupérer less pièces manquantes";
+			type="Empty";
+			colorName="ColorRed";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=10293885;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=8474245;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=5775287;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
